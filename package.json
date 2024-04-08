@@ -1,0 +1,14 @@
+{
+  "name": "plugin-manager",
+  "version": "1.0.0",
+  "description": "We offer this tool to the community to develop his own projects that requires some tool to integrate a plugin funcionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
