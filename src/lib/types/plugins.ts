@@ -1,4 +1,5 @@
 interface Plugin {
+    uuid : string;
     name : string;
     description : string;
     routerPath? : string;

@@ -3,9 +3,18 @@ import express, {
     Request,
     Response
 } from 'express';
+import ViewService from '../services/view';
 
-const router : Router = express.Router();
+function createViewRouter(viewService : ViewService) : Router {
+    const router : Router = express.Router();
 
-router.use((req : Request, res : Response) => {
-    
-});
+    router.use((req : Request, res : Response) => {
+
+    });
+
+    return router;
+};
+
+export {
+    createViewRouter
+};
